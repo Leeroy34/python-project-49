@@ -3,11 +3,13 @@ import random
 
 
 def hello():
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
 
 
 def main():
+    hello()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     number = random.randint(0, 100)
     print(f'Question: {number}')
