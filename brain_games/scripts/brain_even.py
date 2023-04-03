@@ -2,14 +2,14 @@ import prompt
 import random
 
 
-def hello():
+def welocome_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
 
 
 def main():
-    hello()
+    welocome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     number = random.randint(0, 100)
     print(f'Question: {number}')
