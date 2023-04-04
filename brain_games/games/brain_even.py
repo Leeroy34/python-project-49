@@ -16,7 +16,7 @@ def main():
            (number % 2 != 0 and user_answer.lower() == 'no'):
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was "
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was  "
                   f"'{'yes' if number % 2 == 0 else 'no'}'.")
             print(f"Let's try again, {name}")
             return

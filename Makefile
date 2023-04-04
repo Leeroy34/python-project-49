@@ -16,6 +16,9 @@ brain-gcd:
 brain-progression:
 		poetry run brain-progression
 
+brain-prime:
+		poetry run brain-prime
+
 build:
 		poetry build
 
@@ -28,3 +31,6 @@ package-install:
 
 lint brain_games:
 		poetry run flake8 brain_games
+
+lint brain_progression:
+		poetry run flake8 brain_games/games/brain_progression.py 
