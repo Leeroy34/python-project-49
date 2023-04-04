@@ -14,7 +14,7 @@ def main():
         operation = random.choice(operations)
         print('What is the result of the expression?')
         print(f"Question: {num1} {operation} {num2}")
-        user_answer = prompt.string('Your answer: ')
+        reply = prompt.string('Your answer: ')
 
         if operation == "+":
             answer = num1 + num2
@@ -23,11 +23,12 @@ def main():
         else:
             answer = num1 * num2
 
-        if int(user_answer) == answer:
+        if int(reply) == answer:
             print('Correct!')
         else:
             print(
-                f"'{user_answer}' is wrong answer ;(. Correct answer was {answer}")
+                f"'{reply}' is wrong answer ;(. Correct answer was '{answer}'"
+            )
             print(f"Let's try again, {name}")
             return
 

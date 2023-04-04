@@ -27,13 +27,13 @@ def main():
                 answer = 'yes'
 
         print(f'Question: {number}')
-        user_answer = prompt.string('Your answer: ')
+        reply = prompt.string('Your answer: ')
 
-        if user_answer == answer:
+        if reply == answer:
             print('Correct!')
         else:
             print(
-                f"""'{user_answer}' is wrong answer ;(.Correct answer was '{answer}""")
+                f"'{reply}' is wrong answer ;(.Correct answer was '{answer}'")
             print(f"Let's try again, {name}")
             return
 
