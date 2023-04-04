@@ -4,5 +4,8 @@
 
 <a href="https://codeclimate.com/github/Leeroy34/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/a3c728283fd6ac493fed/maintainability" /></a>
 
-link for asciinema:
+link on asciinema for brain-even:
 https://asciinema.org/a/9g6FfTUZzRX0bG3BDtzv80AIC
+
+link on asciinema for brain-calc:
+https://asciinema.org/a/KsToGGVajqcEBNuH8EpXuPxKL
