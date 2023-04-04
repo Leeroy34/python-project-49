@@ -9,15 +9,15 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for i in range(3):
-        number = random.randint(0, 100)
+        number = random.randint(1, 100)
         print(f'Question: {number}')
-        answer = prompt.string('Your answer: ')
+        user_answer = prompt.string('Your answer: ')
 
-        if (number % 2 == 0 and answer.lower() == 'yes') or \
-           (number % 2 != 0 and answer.lower() == 'no'):
+        if (number % 2 == 0 and user_answer.lower() == 'yes') or \
+           (number % 2 != 0 and user_answer.lower() == 'no'):
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was "
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was "
                   f"'{'yes' if number % 2 == 0 else 'no'}'.")
             print(f"Let's try again, {name}")
             return
