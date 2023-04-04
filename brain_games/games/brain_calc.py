@@ -1,11 +1,10 @@
 import prompt
 import random
+from brain_games.scripts.greet import greet
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = greet()
 
     for i in range(3):
         num1 = random.randint(1, 100)
