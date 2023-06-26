@@ -3,7 +3,7 @@ import random
 from brain_games.scripts.greet import greet
 
 
-def main():
+def play_brain_calc():
     name = greet()
 
     for i in range(3):
@@ -33,7 +33,3 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
-
-
-if __name__ == '__main__':
-    main()

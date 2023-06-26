@@ -3,7 +3,7 @@ import random
 from brain_games.scripts.greet import greet
 
 
-def main():
+def play_brain_progression():
     name = greet()
     print('What number is missing in the progression?')
     for i in range(3):
@@ -32,7 +32,3 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
-
-
-if __name__ == "__main__":
-    main()

@@ -3,7 +3,7 @@ import random
 from brain_games.scripts.greet import greet
 
 
-def main():
+def play_brain_even():
     name = greet()
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
@@ -22,7 +22,3 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
-
-
-if __name__ == '__main__':
-    main()

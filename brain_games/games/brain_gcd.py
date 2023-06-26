@@ -11,7 +11,7 @@ def gcd(a, b):
     return a
 
 
-def main():
+def play_brain_gcd():
     name = greet()
     print('Find the greatest common divisor of given numbers.')
     for i in range(3):
@@ -31,7 +31,3 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
-
-
-if __name__ == "__main__":
-    main()
